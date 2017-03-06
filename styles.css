@@ -7,6 +7,7 @@
 body {
   max-width: 1200px;
   margin: 0 auto;
+  font-family: georgia;
 }
 
 /*Start Nav Styling*/
@@ -262,7 +263,128 @@ header .date {
   width: 945px;
 }
 
-#universe {
+.relative-img-holder img {
   width: 945px;
   height: 576px;
+}
+
+.relative-img-holder {
+  position: relative;
+}
+
+.absolute-p {
+  position: absolute;
+  width: 228px;
+  font-size: 13px;
+  line-height: 17px;
+}
+
+.absolute-p span {
+  font-weight: bold;
+}
+
+.relative-img-holder .first {
+  top: 150px;
+  left: 0;
+}
+
+.relative-img-holder .second {
+  top: 150px;
+  left: 240px;
+}
+
+.relative-img-holder .third {
+  top: 150px;
+  left: 480px;
+}
+
+.relative-img-holder .fourth {
+  top: 150px;
+  left: 720px;
+}
+
+.relative-img-holder .fifth {
+  top: 430px;
+  left: 0;
+}
+
+.relative-img-holder .sixth {
+  top: 430px;
+  left: 240px;
+}
+
+.relative-img-holder .seventh {
+  top: 430px;
+  left: 480px;
+}
+
+.relative-img-holder .eighth {
+  top: 430px;
+  left: 720px;
+}
+
+#credit {
+  border-bottom: 1px solid #e2e2e2;
+  padding-bottom: 12px;
+}
+
+#img-credit {
+  margin-top: 50px;
+  font-size: 12px;
+  color: #999;'
+}
+
+/*End Universe Image styling*/
+
+/*Start Video Styling*/
+iframe {
+  margin-bottom: 12px;
+}
+
+#video p {
+  font-size: 13px;
+}
+
+#video span {
+  font-size: 11px;
+  color: #999;
+}
+
+#picture p {
+  font-size: 13px;
+}
+
+#picture span {
+  font-size: 11px;
+  color: #999;
+}
+
+#picture {
+  width: 675px;
+}
+
+hr {
+  border: 1px solid black;
+  width: 60px;
+}
+
+#cite {
+  padding-top: 16px;
+  font-size: 11px;
+  color: #999;
+  line-height: 14px;
+}
+
+/*Start Pre Footer Styles*/
+
+.pre-footer {
+  border-top: 1px solid #e2e2e2;
+}
+
+.pre-footer a {
+  text-decoration: none;
+}
+
+.pre-footer a:hover {
+  text-decoration: underline;
 }
