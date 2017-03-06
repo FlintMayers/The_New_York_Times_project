@@ -1,0 +1,203 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/*Start Nav Styling*/
+
+#title {
+  width: 185px;
+  height: 26px;
+  padding-left: 24%;
+  text-align: center;
+
+}
+
+nav {
+  width: 1200px;
+  height: 40px;
+  position: fixed;
+  padding-top: 10px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+.nav-content {
+  padding-right: 30px;
+}
+
+ul {
+  display: inline;
+}
+
+nav button {
+  text-transform: uppercase;
+  background-color: white;
+  font-weight: 500;
+  font-size: 11px;
+  padding-bottom: 5px;
+}
+
+nav .left-nav {
+  float: right;
+  list-style-type: none;
+}
+
+nav .left-nav li {
+  display: inline;
+}
+
+#login {
+  color: white;
+  background-color: #6288a5;
+  border-radius: 3px;
+  padding: 7px 9px;
+  font-size: 11px;
+  margin-right: 10px;
+}
+
+#sections {
+  border: 1px solid #e2e2e2;
+  border-radius: 3px;
+  padding: 7px 9px;
+}
+
+/*End Nav Styling*/
+/*Start Ribbon Styling*/
+.ribbon {
+  width: 21%;
+  height: 80px;
+  position: relative;
+  border-left: 1px solid #ccc;
+  float: left;
+}
+
+.ribbons {
+  position: fixed;
+  margin-top: 53px;
+  width: 1200px;
+  border: 1px solid #ccc;
+}
+
+.clear {
+  clear: both;
+}
+
+.ribbon img {
+  float: left;
+}
+
+.ribbon p {
+  float: left;
+  width: 65%;
+}
+
+.ribbon article {
+  padding: 5px 3px 5px 5px;
+  font-size: 13px;
+}
+/*End Ribbon Styling*/
+
+/*Start Main Content*/
+.main-page {
+  position: absolute;
+  margin-top: 140px;
+  border: 1px solid #ccc;
+  width: 1200px;
+  padding-top: 25px;
+}
+
+.main-container {
+  width: 1000px;
+  border-top: 1px solid #e2e2e2;
+  margin: 0 auto;
+}
+
+.main-container h2 {
+  font-size: 13px;
+  margin-bottom: 32px;
+  margin-top: 8px;
+}
+
+.main-container h1 {
+  margin-bottom: 10px;
+  font-size: 34px;
+}
+
+.article-information {
+  padding: 14px 0 16px 0;
+  border-top: 1px solid #e2e2e2;
+}
+
+.story-metadata {
+  display: inline;
+}
+
+.story-metadata * {
+  display: inline;
+  font-size: 11px;
+}
+
+.story-metadata h6 a {
+  text-decoration: none;
+  color: black;
+}
+
+.story-metadata h6 a:hover {
+  text-decoration: underline;
+}
+
+.article-information ul {
+  list-style-type: none;
+  float: right;
+}
+
+.article-information ul li {
+  display: inline;
+}
+
+.article-information .media {
+  background-color: black;
+  color: white;
+  border-radius: 50px;
+  width: 25px;
+  height: 25px;
+}
+
+.article-information button {
+  float: right;
+}
+
+/*Below Image Styling*/
+.caption {
+  width: 60%;
+}
+
+#caption-text {
+  font-size: 12px;
+  color: #666;
+}
+
+#credit {
+  font-size: 12px;
+  color: #aaa;
+}
+
+.first-page {
+  float: left;
+  width: 55%;
+  margin-left: 75px;
+  margin-top: 50px;
+}
+
+.first-page p {
+  padding-bottom: 17px;
+  line-height: 26px;
+  font-size: 17px;
+}
