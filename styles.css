@@ -26,6 +26,8 @@ nav {
   padding-top: 10px;
   border: 1px solid #ccc;
   border-top: none;
+  z-index: 1000;
+  background-color: white;
 }
 
 .nav-content {
@@ -80,12 +82,14 @@ nav .left-nav li {
 
 .ribbons {
   position: fixed;
-  margin-top: 53px;
+  margin-top: 51px;
   width: 1200px;
   border: 1px solid #ccc;
+  background-color: white;
+  z-index: 1000;
 }
 
-.clear {
+.clearfix {
   clear: both;
 }
 
@@ -111,6 +115,7 @@ nav .left-nav li {
   border: 1px solid #ccc;
   width: 1200px;
   padding-top: 25px;
+  z-index: 1;
 }
 
 .main-container {
@@ -200,4 +205,64 @@ nav .left-nav li {
   padding-bottom: 17px;
   line-height: 26px;
   font-size: 17px;
+}
+
+.comments {
+  float: right;
+  width: 30%;
+  padding-top: 130px;
+}
+
+.comments h2 {
+  font-size: 12px;
+  font-weight: 700;
+  color: #326891;
+}
+
+.comments p {
+  font-size: 13px;
+  color: #666;
+}
+
+header .name {
+  font-size: 13px;
+  font-weight: 700;
+}
+
+header .date {
+  font-size: 12px;
+  color: #999;
+}
+
+.comments a {
+  font-size: 10px;
+  text-decoration: none;
+  border-top: 1px solid #e2e2e2;
+  display: block;
+  margin-top: 15px;
+  padding-top: 10px;
+}
+
+.comments a:hover {
+  text-decoration: underline;
+}
+
+/*Start Universe Picture*/
+#theory-heading {
+  border-top: 1px solid #e2e2e2;
+  padding-top: 15px;
+  font-size: 20px;
+  margin: 0;
+}
+
+#theory-p {
+  color: #666;
+  font-size: 14px;
+  margin: 10px 0;
+  width: 945px;
+}
+
+#universe {
+  width: 945px;
+  height: 576px;
 }
