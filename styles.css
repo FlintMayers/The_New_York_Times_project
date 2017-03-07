@@ -15,9 +15,7 @@ body {
 #title {
   width: 185px;
   height: 26px;
-  padding-left: 24%;
-  text-align: center;
-
+  padding-left: 17%;
 }
 
 nav {
@@ -45,6 +43,16 @@ nav button {
   font-weight: 500;
   font-size: 11px;
   padding-bottom: 5px;
+  padding: 7px 9px;
+  border-radius: 3px;
+}
+
+nav button:hover {
+  background-color: #f7f7f5;
+}
+
+#sections {
+  border: 1px solid #e2e2e2;
 }
 
 nav .left-nav {
@@ -65,25 +73,24 @@ nav .left-nav li {
   margin-right: 10px;
 }
 
-#sections {
-  border: 1px solid #e2e2e2;
-  border-radius: 3px;
-  padding: 7px 9px;
+#login:hover {
+  background-color: #326891;
 }
 
 /*End Nav Styling*/
 /*Start Ribbon Styling*/
 .ribbon {
   width: 21%;
-  height: 80px;
+  height: 65px;
   position: relative;
   border-left: 1px solid #ccc;
   float: left;
+  padding: 8px 3px 8px 8px;
 }
 
 .ribbons {
   position: fixed;
-  margin-top: 51px;
+  margin-top: 50px;
   width: 1200px;
   border: 1px solid #ccc;
   background-color: white;
@@ -96,6 +103,9 @@ nav .left-nav li {
 
 .ribbon img {
   float: left;
+  width: 65px;
+  height: 65px;
+  padding-right: 10px;
 }
 
 .ribbon p {
@@ -103,8 +113,12 @@ nav .left-nav li {
   width: 65%;
 }
 
+.ribbon p:hover {
+  text-decoration: underline;
+}
+
 .ribbon article {
-  padding: 5px 3px 5px 5px;
+  /*padding: 5px 3px 5px 5px;*/
   font-size: 13px;
 }
 /*End Ribbon Styling*/
@@ -137,7 +151,7 @@ nav .left-nav li {
 }
 
 .article-information {
-  padding: 14px 0 16px 0;
+  padding: 14px 0 20px 0;
   border-top: 1px solid #e2e2e2;
 }
 
@@ -166,18 +180,20 @@ nav .left-nav li {
 
 .article-information ul li {
   display: inline;
+  padding-left: 10px;
 }
 
-.article-information .media {
-  background-color: black;
-  color: white;
-  border-radius: 50px;
-  width: 25px;
-  height: 25px;
+.article-information ul #border-left {
+  border-left: 1px solid #e2e2e2;
 }
 
-.article-information button {
-  float: right;
+.article-information .circle {
+  color: #333;
+}
+
+.article-information span .fa-inverse:hover {
+  background-color: #326891;
+  border-radius: 50%;
 }
 
 /*Below Image Styling*/
@@ -330,7 +346,7 @@ header .date {
 
 #img-credit {
   margin-top: 50px;
-  font-size: 12px;
+  font-size: 10px;
   color: #999;'
 }
 
@@ -343,6 +359,7 @@ iframe {
 
 #video p {
   font-size: 13px;
+  color: #666;
 }
 
 #video span {
@@ -352,6 +369,7 @@ iframe {
 
 #picture p {
   font-size: 13px;
+  color: #666;
 }
 
 #picture span {
@@ -364,8 +382,9 @@ iframe {
 }
 
 hr {
-  border: 1px solid black;
   width: 60px;
+  height: 1px;
+  background-color: black;
 }
 
 #cite {
@@ -448,6 +467,7 @@ hr {
   padding-bottom: 5px;
   border-bottom: 1px solid #e2e2e2;
   padding-top: 5px;
+  width: 100%;
 }
 
 .trends ol li span {
@@ -525,6 +545,57 @@ footer .column-right .menu-right li a {
   font-size: 13px;
 }
 
-.column-right #secondary-menu {
+footer .column-right .secondary-menu li a {
   font-size: 9px;
+}
+
+footer .column-right .secondary-menu li {
+  margin-bottom: 0;
+}
+
+#underlined-li {
+  border-top: 1px solid #e2e2e2;
+  margin-top: 10px;
+  padding-top: 5px;
+}
+
+/*End index styling*/
+
+/*Start Socket Styling*/
+
+.socket {
+  width: 1050px;
+  margin: 0 auto;
+  border-top: 3px solid #e2e2e2;
+  padding-top: 10px;
+  margin-top: 30px;
+  padding-bottom: 14px;
+}
+
+.socket ul {
+  list-style-type: none;
+}
+
+.socket ul li {
+  display: inline-block;
+  font-size: 9px;
+  border-right: 1px solid #e2e2e2;
+  padding-right: 5px;
+}
+
+.socket ul li a {
+  color: #999;
+  text-decoration: none;
+}
+
+.socket ul li a:hover {
+  text-decoration: underline;
+}
+
+.socket .right {
+  float: right;
+}
+
+.socket ul .no-right-border {
+  border-right: none;
 }
